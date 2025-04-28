@@ -5,7 +5,7 @@
       "name": "render"
     },
     {
-      "url": "http://localhost:10000",
+      "url": "http://192.168.2.1:10000",
       "name": "localhost"
     }
   ]
