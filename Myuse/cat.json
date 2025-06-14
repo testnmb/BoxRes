@@ -1,5 +1,5 @@
 {
-  "spider": "https://ghfast.top/https://github.com/lemonguo121/BoxRes/raw/main/Myuse/lib/fm.jar",
+  "spider": "https://gh-proxy.com/https://github.com/lemonguo121/BoxRes/raw/main/Myuse/lib/fm.jar",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "lives": [
     {
@@ -16,7 +16,7 @@
     {
       "name": "LIVE",
       "type": 0,
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u",
       "playerType": 1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
@@ -24,7 +24,7 @@
     {
       "name": "LIVE_fan",
       "type": 0,
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
       "playerType": 1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
@@ -66,31 +66,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
-    },
-    {
-      "key": "量子资源",
-      "name": "🥑量子资源",
-      "type": 1,
-      "api": "http://cj.lziapi.com/api.php/provide/vod/",
-      "playUrl": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "categories": [
-        "国产剧",
-        "国产动漫",
-        "泰国剧",
-        "台湾剧",
-        "香港剧",
-        "欧美剧",
-        "韩国剧",
-        "日本剧",
-        "动漫",
-        "体育",
-        "剧情片",
-        "动作片",
-        "爱情片",
-        "喜剧片"
-      ]
     },
     {
       "key": "黑木耳(海外)",
@@ -219,6 +194,31 @@
         "萌宝短剧",
         "其它短剧",
         "逆袭短剧"
+      ]
+    },
+    {
+      "key": "量子资源",
+      "name": "🥑量子资源",
+      "type": 1,
+      "api": "http://cj.lziapi.com/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "国产剧",
+        "国产动漫",
+        "泰国剧",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "韩国剧",
+        "日本剧",
+        "动漫",
+        "体育",
+        "剧情片",
+        "动作片",
+        "爱情片",
+        "喜剧片"
       ]
     },
     {
