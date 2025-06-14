@@ -222,8 +222,8 @@
       ]
     },
     {
-      "key": "111",
-      "name": "111",
+      "key": "789资源",
+      "name": "789资源",
       "type": 1,
       "api": "https://www.caiji.cyou/api.php/provide/vod/?ac=list",
       "playUrl": "",
