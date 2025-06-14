@@ -222,6 +222,15 @@
       ]
     },
     {
+      "key": "虾米",
+      "name": "虾米",
+      "type": 1,
+      "api": "https://zy.hls.one/api.php/provide/vod/at/json",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
       "key": "csp_xpath_saohuotv",
       "name": "骚火电影(XP)",
       "type": 3,
