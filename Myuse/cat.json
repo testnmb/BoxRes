@@ -234,7 +234,7 @@
     {
       "key": "天涯资源",
       "name": "天涯资源",
-      "type": 2,
+      "type": 1,
       "api": "https://tyyszyapi.com/api.php/provide/vod/at/?ac=list",
       "playUrl": "",
       "searchable": 1,
