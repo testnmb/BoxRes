@@ -222,10 +222,10 @@
       ]
     },
     {
-      "key": "虾米",
-      "name": "虾米",
+      "key": "111",
+      "name": "111",
       "type": 1,
-      "api": "https://zy.hls.one/api.php/provide/vod/at/json",
+      "api": "https://www.caiji.cyou/api.php/provide/vod/?ac=list",
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1
