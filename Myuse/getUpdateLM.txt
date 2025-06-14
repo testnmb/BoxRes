@@ -1,7 +1,7 @@
 {
     "versionName":"1.0.16",
     "versionCode":1016,
-    "downLoadUrl":"https://wwym.lanzouq.com/iyW6c2yso77i",
+    "downLoadUrl":"https://wwym.lanzouq.com/LMPlayer",
     "updateDes":" test test test test test test test test test test test test test test test test test test test test test test ",
     "isMust":false
 }
