@@ -38,7 +38,7 @@
       },
       "ruleSearch": {
         "author": "span.bauthor>a@text",
-        "bookList": "li.burl",
+        "bookList": "u-list.burl",
         "bookUrl": "h3.bname>a@href",
         "checkKeyWord": "不许没收我的人籍",
         "coverUrl": "div.l-img>a>img@src",
