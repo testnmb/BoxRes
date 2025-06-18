@@ -232,7 +232,7 @@
     {
       "key": "旺旺资源",
       "name": "旺旺资源",
-      "type": 0,
+      "type": 1,
       "api": "https://api.wwzy.tv/api.php/provide/vod/?ac=list",
       "playUrl": "",
       "searchable": 1,
