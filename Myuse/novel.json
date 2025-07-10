@@ -71,10 +71,10 @@
       "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
       "ruleHome": {
         "author": ".bauthor a",
-        "bookList": ".bauthor a@li.burl",
-        "bookUrl": "href",
+        "bookList": "ul.u-list > li",
+        "bookUrl": "h3.bname a@href",
         "checkKeyWord": "不许没收我的人籍",
-        "coverUrl": ".l-img img",
+        "coverUrl": ".l-img img@src",
         "intro": ".l-p2",
         "kind": "span.lz@text&&span.l-time@text##(\\s\\d\\d:\\d\\d)##",
         "lastChapter": "span.l-chapter@text##(^\\d+\\.?)##",
