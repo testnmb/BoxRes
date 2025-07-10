@@ -12,8 +12,75 @@
       "enabled": true,
       "enabledCookieJar": true,
       "enabledExplore": true,
-      "exploreUrl": "[\n    {\"title\": \"🍒🍒网站推荐🍒🍒\", \"style\": {\"layout_flexGrow\": 1, \"layout_wrapBefore\": true}},\n    {\"title\": \"首页推荐\", \"url\": \"/\", \"style\": {\"layout_wrapBefore\": true}},\n    {\"title\": \"完结作品\", \"url\": \"/end/?page={{page}}\"},\n    \n    {\"title\": \"🍎🍎排行榜单🍎🍎\", \"style\": {\"layout_flexGrow\": 1, \"layout_wrapBefore\": true}},\n    {\"title\": \"日榜\", \"url\": \"/hot/day/?page={{page}}\", \"style\": {\"layout_wrapBefore\": true}},\n    {\"title\": \"月榜\", \"url\": \"/hot/month/?page={{page}}\"},\n    {\"title\": \"总榜\", \"url\": \"/hot/?page={{page}}\"},\n\n    {\"title\": \"🍅🍅小说分类🍅🍅\", \"style\": {\"layout_flexGrow\": 1, \"layout_wrapBefore\": true}},\n    {\"title\": \"玄幻奇幻\", \"url\": \"/sort/1/index-0-0-0-{{page}}.html\", \"style\": {\"layout_wrapBefore\": true}},\n    {\"title\": \"武侠小说\", \"url\": \"/sort/10/index-0-0-0-{{page}}.html\"},\n    {\"title\": \"修真仙侠\", \"url\": \"/sort/2/index-0-0-0-{{page}}.html\"},\n    {\"title\": \"都市青春\", \"url\": \"/sort/3/index-0-0-0-{{page}}.html\"},\n    {\"title\": \"军事历史\", \"url\": \"/sort/4/index-0-0-0-{{page}}.html\"},\n    {\"title\": \"网游竞技\", \"url\": \"/sort/5/index-0-0-0-{{page}}.html\"},\n    {\"title\": \"科幻灵异\", \"url\": \"/sort/6/index-0-0-0-{{page}}.html\"},\n    {\"title\": \"言情穿越\", \"url\": \"/sort/7/index-0-0-0-{{page}}.html\"},\n    {\"title\": \"耽美同人\", \"url\": \"/sort/8/index-0-0-0-{{page}}.html\"},\n    {\"title\": \"台言古言\", \"url\": \"/sort/9/index-0-0-0-{{page}}.html\"},\n    {\"title\": \"其他小说\", \"url\": \"/sort/0/index-0-0-0-{{page}}.html\"}\n]",
+      "exploreUrl": [
+        {
+          "title": "首页推荐",
+          "url": "/",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "玄幻奇幻",
+          "url": "/sort/1/index-0-0-0-{{page}}.html",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "武侠小说",
+          "url": "/sort/10/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "修真仙侠",
+          "url": "/sort/2/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "都市青春",
+          "url": "/sort/3/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "军事历史",
+          "url": "/sort/4/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "网游竞技",
+          "url": "/sort/5/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "科幻灵异",
+          "url": "/sort/6/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "言情穿越",
+          "url": "/sort/7/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "耽美同人",
+          "url": "/sort/8/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "台言古言",
+          "url": "/sort/9/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "其他小说",
+          "url": "/sort/0/index-0-0-0-{{page}}.html"
+        }
+      ],
       "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "ruleHome": {
+        "author": ".bauthor a",
+        "bookList": ".bauthor a@li.burl",
+        "bookUrl": "href",
+        "checkKeyWord": "不许没收我的人籍",
+        "coverUrl": ".l-img img",
+        "intro": ".l-p2",
+        "kind": "span.lz@text&&span.l-time@text##(\\s\\d\\d:\\d\\d)##",
+        "lastChapter": "span.l-chapter@text##(^\\d+\\.?)##",
+        "name": "h3.bname a",
+        "wordCount": "span.size@text"
+      },
       "ruleBookInfo": {
         "author": "a.bauthor@text",
         "coverUrl": "div.n-img>img@src",
@@ -66,12 +133,94 @@
       "bookUrlPattern": "",
       "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
       "searchUrl": "https://www.quanben.io/index.php?c=book&a=search&keywords={keywords}",
-      "exploreUrl": "",
+      "exploreUrl": [
+        {
+          "title": "首页推荐",
+          "url": "/",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "玄幻",
+          "url": "/c/xuanhuan_{{page}}.html",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "都市",
+          "url": "/c/dushi_{{page}}.html"
+        },
+        {
+          "title": "言情",
+          "url": "/c/yanqing_{{page}}.html"
+        },
+        {
+          "title": "穿越",
+          "url": "/c/chuanyue_{{page}}.html"
+        },
+        {
+          "title": "仙侠",
+          "url": "/c/xianxia_{{page}}.html"
+        },
+        {
+          "title": "灵异",
+          "url": "/c/lingyi_{{page}}.html"
+        },
+        {
+          "title": "悬疑",
+          "url": "/c/xuanyi_{{page}}.html"
+        },
+        {
+          "title": "历史",
+          "url": "/c/lishi_{{page}}.html"
+        },
+        {
+          "title": "军事",
+          "url": "/c/junshi_{{page}}.html"
+        },
+        {
+          "title": "游戏",
+          "url": "/c/youxi_{{page}}.html"
+        },
+        {
+          "title": "竞技",
+          "url": "/c/jingji_{{page}}.html"
+        },
+        {
+          "title": "科幻",
+          "url": "/c/kehuan_{{page}}.html"
+        },
+        {
+          "title": "官场",
+          "url": "/c/guanchang_{{page}}.html"
+        },
+        {
+          "title": "耽美",
+          "url": "/c/xianyan_{{page}}.html"
+        },
+        {
+          "title": "其它",
+          "url": "/c/qita_{{page}}.html"
+        }
+      ],
       "enabled": true,
       "enabledExplore": true,
       "weight": 0,
       "customOrder": 0,
       "lastUpdateTime": 1619883443705,
+      "ruleHome": {
+        "bookList": "div.list2",
+        "name": "span[itemprop='name']",
+        "bookUrl": "a@href",
+        "author": "span[itemprop='author']",
+        "coverUrl": "img@src",
+        "intro": "p[itemprop='description']",
+        "kind": "",
+        "lastChapter": "",
+        "wordCount": ""
+      },
       "ruleSearch": {
         "bookList": ".row .list2",
         "name": "[itemprop='name']@text",
