@@ -1,0 +1,7 @@
+{
+    "versionName":"1.0.17",
+    "versionCode":1017,
+    "downLoadUrl":"https://wwym.lanzouq.com/LMPlayer",
+    "updateDes":"1、小说支持多站点；\n2、修复已知不过",
+    "isMust":true
+}
