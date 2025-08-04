@@ -1,0 +1,137 @@
+{
+  "novelConfigList": [
+    {
+      "bookSourceUrl": "https://manhuafree.com",
+      "bookSourceType": "1",
+      "bookSourceName": "GoDa漫画",
+      "bookSourceGroup": "lemon",
+      "bookSourceComment": "",
+      "loginUrl": "",
+      "bookUrlPattern": "",
+      "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+      "searchUrl": "https://manhuafree.com/s/{keywords}?page=1",
+      "exploreUrl": [
+        {
+          "title": "首页",
+          "url": "/",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "国漫",
+          "url": "/manga-genre/cn/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "日漫",
+          "url": "/manga-genre/jp/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "韩漫",
+          "url": "/manga-genre/kr/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "穿越",
+          "url": "/manga-tag/chuanyue/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "奇幻",
+          "url": "/manga-tag/qihuan/page/{{page}}"
+        },
+        {
+          "title": "异能",
+          "url": "/manga-tag/yineng/page/{{page}}"
+        },
+        {
+          "title": "恋爱",
+          "url": "/manga-tag/lianai/page/{{page}}"
+        },
+        {
+          "title": "修仙",
+          "url": "/manga-tag/xiuxian/page/{{page}}"
+        },
+        {
+          "title": "系统",
+          "url": "/manga-tag/xitong/page/{{page}}"
+        },
+        {
+          "title": "复仇",
+          "url": "/manga-tag/fuchou/page/{{page}}"
+        },
+        {
+          "title": "玄幻",
+          "url": "/manga-tag/xuanhuan/page/{{page}}"
+        },
+        {
+          "title": "热血",
+          "url": "/manga-tag/rexue/page/{{page}}"
+        },
+        {
+          "title": "大女主",
+          "url": "/manga-tag/danvzhu/page/{{page}}"
+        }
+      ],
+      "enabled": true,
+      "enabledExplore": true,
+      "weight": 0,
+      "customOrder": 0,
+      "lastUpdateTime": 1619883443705,
+      "ruleHome": {
+        "bookList": "div.cardlist > div",
+        "name": "h3.cardtitle",
+        "bookUrl": "a@href",
+        "author": "",
+        "coverUrl": "img.card@src",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "wordCount": ""
+      },
+      "ruleSearch": {
+        "bookList": ".pb-2",
+        "name": "h3.cardtitle@text",
+        "author": "",
+        "intro": "",
+        "bookUrl": "a@href",
+        "urlSuffix": "",
+        "coverUrl": "img@src"
+      },
+      "ruleExplore": {
+        "loadMoreType": 3,
+        "loadMoreFun": "https://manhuafree.com/chapterlist/{bookid}"
+      },
+      "ruleBookInfo": {
+        "name": "h1",
+        "author": "div.text-small a span",
+        "kind": "div.text-sm a span",
+        "lastChapter": "#lastchap",
+        "intro": "p.text-medium",
+        "coverUrl": "div.aspect-3-4 > img@src"
+      },
+      "ruleToc": {
+        "needReversed": true,
+        "chapterList": ".chapteritem",
+        "chapterName": ".chaptertitle@text",
+        "chapterUrl": "a@href"
+      },
+      "ruleContent": {
+        "content": "#chapcontent img"
+      }
+    }
+  ]
+}
+
+
+
