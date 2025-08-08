@@ -17,6 +17,37 @@
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1
+    },
+    {
+      "key": "电影天堂",
+      "name": "电影天堂",
+      "type": 0,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1
+    },{
+      "key": "最大资源",
+      "name": "最大资源",
+      "type": 0,
+      "api": "https://zuida001.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "filterable": 0
+    },
+    {
+      "key": "wolongzy",
+      "name": "卧龙资源",
+      "type": 1,
+      "api": "https://collect.wolongzy.cc/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "7ced0073619101d397b5c86fc3578ed4",
+      "name": "火狐",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/"
     }
   ]
 }
