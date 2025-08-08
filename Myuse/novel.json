@@ -1,129 +1,6 @@
 {
   "novelConfigList": [
     {
-      "bookSourceComment": "先更新标题，过段时间才更新正文；\n偶尔段落乱序，且不会修复；",
-      "bookSourceGroup": "General",
-      "bookSourceName": "爱下电子书",
-      "bookSourceType": "0",
-      "loginUrl": "",
-      "bookSourceUrl": "https://ixdzs8.com",
-      "concurrentRate": "1/1000",
-      "customOrder": 31,
-      "enabled": true,
-      "enabledCookieJar": true,
-      "enabledExplore": true,
-      "exploreUrl": [
-        {
-          "title": "首页推荐",
-          "url": "/",
-          "style": {
-            "layout_wrapBefore": true
-          }
-        },
-        {
-          "title": "玄幻奇幻",
-          "url": "/sort/1/index-0-0-0-{{page}}.html",
-          "style": {
-            "layout_wrapBefore": true
-          }
-        },
-        {
-          "title": "武侠小说",
-          "url": "/sort/10/index-0-0-0-{{page}}.html"
-        },
-        {
-          "title": "修真仙侠",
-          "url": "/sort/2/index-0-0-0-{{page}}.html"
-        },
-        {
-          "title": "都市青春",
-          "url": "/sort/3/index-0-0-0-{{page}}.html"
-        },
-        {
-          "title": "军事历史",
-          "url": "/sort/4/index-0-0-0-{{page}}.html"
-        },
-        {
-          "title": "网游竞技",
-          "url": "/sort/5/index-0-0-0-{{page}}.html"
-        },
-        {
-          "title": "科幻灵异",
-          "url": "/sort/6/index-0-0-0-{{page}}.html"
-        },
-        {
-          "title": "言情穿越",
-          "url": "/sort/7/index-0-0-0-{{page}}.html"
-        },
-        {
-          "title": "耽美同人",
-          "url": "/sort/8/index-0-0-0-{{page}}.html"
-        },
-        {
-          "title": "台言古言",
-          "url": "/sort/9/index-0-0-0-{{page}}.html"
-        },
-        {
-          "title": "其他小说",
-          "url": "/sort/0/index-0-0-0-{{page}}.html"
-        }
-      ],
-      "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
-      "ruleHome": {
-        "author": ".bauthor a",
-        "bookList": "ul.u-list > li",
-        "bookUrl": "h3.bname a@href",
-        "checkKeyWord": "不许没收我的人籍",
-        "coverUrl": ".l-img img@src",
-        "intro": ".l-p2",
-        "kind": "span.lz@text&&span.l-time@text##(\\s\\d\\d:\\d\\d)##",
-        "lastChapter": "span.l-chapter@text##(^\\d+\\.?)##",
-        "name": "h3.bname a",
-        "wordCount": "span.size@text"
-      },
-      "ruleBookInfo": {
-        "author": "a.bauthor@text",
-        "coverUrl": "div.n-img>img@src",
-        "downloadUrls": "span.btn-solid>a@href",
-        "intro": "#intro@html",
-        "kind": "a.nsort@text&&span.lz@text&&div.n-text>p:last-of-type@text##(更新:?|\\s\\d+:\\d+:\\d+)##",
-        "lastChapter": "span.end@text",
-        "name": "div.n-text>h1@text",
-        "tocUrl": "<js>java.put(\"bookUrl\",baseUrl)</js>\nhttps://ixdzs8.com/novel/clist/,{\n    \"method\": \"POST\",\n    \"body\": \"bid={{baseUrl.split(\"/\")[4]}}\",\n    \"headers\": {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36\"}\n}",
-        "wordCount": "span.nsize@text"
-      },
-      "ruleContent": {
-        "content": "article.page-content p:not(.abg)",
-        "replaceRegex": "##(\\s*\\d*\\.?{{title.split(\" \")[0]}}\\S*{{title.substr(-1)}}\\S*\\s+|\\(?本章完\\)?|\\s*更新\\S*\\d+-\\d+-\\d+\\s+)##",
-        "title": ""
-      },
-      "ruleExplore": {
-        "loadMoreType": 2,
-        "loadMoreFun": "https://ixdzs8.com/novel/clist/"
-      },
-      "ruleReview": {
-      },
-      "ruleSearch": {
-        "author": "span.bauthor>a@text",
-        "bookList": "li.burl",
-        "bookUrl": "h3.bname>a@href",
-        "checkKeyWord": "不许没收我的人籍",
-        "coverUrl": "div.l-img>a>img@src",
-        "intro": "p.l-p2@html",
-        "kind": "span.lz@text&&span.l-time@text##(\\s\\d\\d:\\d\\d)##",
-        "lastChapter": "span.l-chapter@text##(^\\d+\\.?)##",
-        "name": "h3.bname>a@text",
-        "wordCount": "span.size@text"
-      },
-      "ruleToc": {
-        "chapterList": "div#a-list ul.u-chapter li",
-        "chapterName": "@text",
-        "chapterUrl": "@href"
-      },
-      "searchUrl": "https://ixdzs8.com//bsearch?q={keywords}&page=1",
-      "weight": 85
-    },
-    {
       "bookSourceUrl": "https://www.quanben.io",
       "bookSourceType": "0",
       "bookSourceName": "全本小说网",
@@ -251,6 +128,129 @@
       "ruleContent": {
         "content": "#content p@textNodes"
       }
+    },
+    {
+      "bookSourceComment": "先更新标题，过段时间才更新正文；\n偶尔段落乱序，且不会修复；",
+      "bookSourceGroup": "General",
+      "bookSourceName": "爱下电子书",
+      "bookSourceType": "0",
+      "loginUrl": "",
+      "bookSourceUrl": "https://ixdzs8.com",
+      "concurrentRate": "1/1000",
+      "customOrder": 31,
+      "enabled": true,
+      "enabledCookieJar": true,
+      "enabledExplore": true,
+      "exploreUrl": [
+        {
+          "title": "首页推荐",
+          "url": "/",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "玄幻奇幻",
+          "url": "/sort/1/index-0-0-0-{{page}}.html",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "武侠小说",
+          "url": "/sort/10/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "修真仙侠",
+          "url": "/sort/2/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "都市青春",
+          "url": "/sort/3/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "军事历史",
+          "url": "/sort/4/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "网游竞技",
+          "url": "/sort/5/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "科幻灵异",
+          "url": "/sort/6/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "言情穿越",
+          "url": "/sort/7/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "耽美同人",
+          "url": "/sort/8/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "台言古言",
+          "url": "/sort/9/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "其他小说",
+          "url": "/sort/0/index-0-0-0-{{page}}.html"
+        }
+      ],
+      "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "ruleHome": {
+        "author": ".bauthor a",
+        "bookList": "ul.u-list > li",
+        "bookUrl": "h3.bname a@href",
+        "checkKeyWord": "不许没收我的人籍",
+        "coverUrl": ".l-img img@src",
+        "intro": ".l-p2",
+        "kind": "span.lz@text&&span.l-time@text##(\\s\\d\\d:\\d\\d)##",
+        "lastChapter": "span.l-chapter@text##(^\\d+\\.?)##",
+        "name": "h3.bname a",
+        "wordCount": "span.size@text"
+      },
+      "ruleBookInfo": {
+        "author": "a.bauthor@text",
+        "coverUrl": "div.n-img>img@src",
+        "downloadUrls": "span.btn-solid>a@href",
+        "intro": "#intro@html",
+        "kind": "a.nsort@text&&span.lz@text&&div.n-text>p:last-of-type@text##(更新:?|\\s\\d+:\\d+:\\d+)##",
+        "lastChapter": "span.end@text",
+        "name": "div.n-text>h1@text",
+        "tocUrl": "<js>java.put(\"bookUrl\",baseUrl)</js>\nhttps://ixdzs8.com/novel/clist/,{\n    \"method\": \"POST\",\n    \"body\": \"bid={{baseUrl.split(\"/\")[4]}}\",\n    \"headers\": {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36\"}\n}",
+        "wordCount": "span.nsize@text"
+      },
+      "ruleContent": {
+        "content": "article.page-content p:not(.abg)",
+        "replaceRegex": "##(\\s*\\d*\\.?{{title.split(\" \")[0]}}\\S*{{title.substr(-1)}}\\S*\\s+|\\(?本章完\\)?|\\s*更新\\S*\\d+-\\d+-\\d+\\s+)##",
+        "title": ""
+      },
+      "ruleExplore": {
+        "loadMoreType": 2,
+        "loadMoreFun": "https://ixdzs8.com/novel/clist/"
+      },
+      "ruleReview": {
+      },
+      "ruleSearch": {
+        "author": "span.bauthor>a@text",
+        "bookList": "li.burl",
+        "bookUrl": "h3.bname>a@href",
+        "checkKeyWord": "不许没收我的人籍",
+        "coverUrl": "div.l-img>a>img@src",
+        "intro": "p.l-p2@html",
+        "kind": "span.lz@text&&span.l-time@text##(\\s\\d\\d:\\d\\d)##",
+        "lastChapter": "span.l-chapter@text##(^\\d+\\.?)##",
+        "name": "h3.bname>a@text",
+        "wordCount": "span.size@text"
+      },
+      "ruleToc": {
+        "chapterList": "div#a-list ul.u-chapter li",
+        "chapterName": "@text",
+        "chapterUrl": "@href"
+      },
+      "searchUrl": "https://ixdzs8.com//bsearch?q={keywords}&page=1",
+      "weight": 85
     }
   ]
 }
