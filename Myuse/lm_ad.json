@@ -61,12 +61,6 @@
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1
-    },
-    {
-      "key": "7ced0073619101d397b5c86fc3578ed4",
-      "name": "火狐",
-      "type": 1,
-      "api": "https://hhzyapi.com/api.php/provide/vod/"
     }
   ]
 }
