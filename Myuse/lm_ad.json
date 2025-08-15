@@ -1,19 +1,19 @@
 {
   "sites": [
     {
-      "key": "黑木耳(海外)",
-      "name": "黑木耳(海外)",
+      "key": "魔爪资源",
+      "name": "魔爪资源",
       "type": 1,
-      "api": "https://json.heimuer.xyz/api.php/provide/vod/",
+      "api": "https://mozhuazy.com/api.php/provide/vod/?ac=list",
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1
     },
     {
-      "key": "黑木耳",
-      "name": "黑木耳",
+      "key": "天涯资源",
+      "name": "天涯资源",
       "type": 1,
-      "api": "https://json02.heimuer.xyz/api.php/provide/vod/",
+      "api": "https://tyyszyapi.com/api.php/provide/vod/at/?ac=list",
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1
@@ -28,10 +28,19 @@
       "quickSearch": 1
     },
     {
-      "key": "天涯资源",
-      "name": "天涯资源",
+      "key": "电影天堂",
+      "name": "电影天堂",
+      "type": 0,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "wolongzy",
+      "name": "卧龙资源",
       "type": 1,
-      "api": "https://tyyszyapi.com/api.php/provide/vod/at/?ac=list",
+      "api": "https://collect.wolongzy.cc/api.php/provide/vod/",
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1
