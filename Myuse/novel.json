@@ -4,7 +4,7 @@
       "bookSourceUrl": "https://www.quanben.io",
       "bookSourceType": "0",
       "bookSourceName": "全本小说网",
-      "bookSourceGroup": "风畔",
+      "bookSourceGroup": "lemon",
       "bookSourceComment": "",
       "loginUrl": "",
       "bookUrlPattern": "",
@@ -122,11 +122,13 @@
       },
       "ruleToc": {
         "chapterList": ".list3 li",
-        "chapterName": "tag.a@text",
-        "chapterUrl": "tag.a@href"
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
       },
       "ruleContent": {
-        "content": "#content p@textNodes"
+        "content": "#content p@textNodes",
+        "replaceRegex": "",
+        "title": ""
       }
     },
     {
@@ -250,6 +252,110 @@
         "chapterUrl": "@href"
       },
       "searchUrl": "https://ixdzs8.com//bsearch?q={keywords}&page=1",
+      "weight": 85
+    },
+    {
+      "bookSourceComment": "",
+      "bookSourceGroup": "General",
+      "bookSourceName": "笔趣阁",
+      "bookSourceType": "0",
+      "loginUrl": "",
+      "bookSourceUrl": "https://www.fda1726.sbs",
+      "concurrentRate": "1/1000",
+      "customOrder": 31,
+      "enabled": true,
+      "enabledCookieJar": true,
+      "enabledExplore": true,
+      "exploreUrl": [
+        {
+          "title": "玄幻",
+          "url": "/json?sortid=1&page={{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "武侠",
+          "url": "/json?sortid=2&page={{page}}"
+        },
+        {
+          "title": "都市",
+          "url": "/json?sortid=3&page={{page}}"
+        },
+        {
+          "title": "历史",
+          "url": "/json?sortid=4&page={{page}}"
+        },
+        {
+          "title": "网游",
+          "url": "/json?sortid=5&page={{page}}"
+        },
+        {
+          "title": "科幻",
+          "url": "/json?sortid=6&page={{page}}"
+        },
+        {
+          "title": "女生",
+          "url": "/json?sortid=7&page={{page}}"
+        },
+        {
+          "title": "完本",
+          "url": "/json?sortid=0&page={{page}"
+        }
+      ],
+      "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "ruleHome": {
+        "author": "author",
+        "bookList": "json",
+        "bookUrl": "url_list",
+        "checkKeyWord": "",
+        "coverUrl": "url_img",
+        "intro": "intro",
+        "kind": "",
+        "lastChapter": "",
+        "name": "articlename",
+        "wordCount": ""
+      },
+      "ruleBookInfo": {
+        "author": "div.small span@0##^作者：##",
+        "coverUrl": "div.cover img@src",
+        "downloadUrls": "span.btn-solid a@href",
+        "intro": "div.intro dl dd@0",
+        "kind": "div.small span@1##^状态：##",
+        "lastChapter": "div.small span.last a@text",
+        "name": "h1@0",
+        "tocUrl": "",
+        "wordCount": "span.nsize@text"
+      },
+      "ruleContent": {
+        "content": "div#chaptercontent",
+        "replaceRegex": "##(<p[^>]*class=[\"']readinline[\"'][^>]*>.*?<\\/p>|<script[^>]*>.*?<\\/script>|<style[^>]*>.*?<\\/style>)##",
+        "title": ""
+      },
+      "ruleExplore": {
+        "loadMoreType": 4,
+        "loadMoreFun": ""
+      },
+      "ruleReview": {
+      },
+      "ruleSearch": {
+        "bookList": "div.bookbox",
+        "name": "h4.bookname a@text",
+        "bookUrl": "h4.bookname a@href",
+        "author": "div.author@text##^作者：##",
+        "coverUrl": "div.bookimg img@src",
+        "intro": "div.uptime@text",
+        "lastChapter": "",
+        "kind": "",
+        "wordCount": "",
+        "checkKeyWord": "三体"
+      },
+      "ruleToc": {
+        "chapterList": "div.listmain dl dd a",
+        "chapterName": "@text",
+        "chapterUrl": "@href"
+      },
+      "searchUrl": "https://www.fda1726.sbs/s?q={keywords}",
       "weight": 85
     }
   ]
